@@ -1,0 +1,9 @@
+.info {
+  font-weight: 300;
+  font-size: calc((100vw - 80px) / (900 - 480) * (18 - 16) + 3px);
+  color: #979797;
+
+  span {
+    color: #ffffff;
+  }
+}
