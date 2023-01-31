@@ -1,0 +1,1 @@
+export {ProfileInfo} from './ProfileBlock/ProfileBlock'

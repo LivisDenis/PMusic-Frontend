@@ -1,0 +1,53 @@
+.commentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.commentAuthorWrapper {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: end;
+
+  .author {
+    color: white;
+    display: block;
+    font-size: calc((100vw - 80px) / (900 - 480) * (18 - 16) + 5px);
+    transform: translateY(-3px);
+  }
+  .imgAuthor {
+    width: calc((100vw - 80px) / (900 - 480) * (18 - 16) + 30px);
+    margin-right: 5px;
+    border-radius: 50px;
+  }
+}
+.commentTextWrapper {
+  display: flex;
+  align-items: end;
+
+  .commentText {
+    font-style: italic;
+    font-weight: 400;
+    font-size: calc((100vw - 80px) / (900 - 480) * (18 - 16) + 5px);
+    line-height: calc((100vw - 80px) / (900 - 480) * (18 - 16) + 9px);
+    color: #ffffff;
+  }
+
+  .time {
+    margin-left: auto;
+    font-style: italic;
+    font-weight: 400;
+    font-size: calc((100vw - 480px) / (900 - 480) * (18 - 16) + 6px);
+    color: #ffffff;
+    white-space: nowrap;
+    margin-right: 5px;
+  }
+}
+.likeWrapper {
+  transform: translateY(10px);
+  display: flex;
+  align-items: center;
+  .likeIcon {
+    width: calc((100vw - 80px) / (900 - 480) * (18 - 16) + 8px);
+  }
+}
